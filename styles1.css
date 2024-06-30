@@ -1,0 +1,196 @@
+@font-face{
+    font-family: head;
+    src:url(Chunk.ttf)
+}
+.material-symbols-outlined {
+    color: white;
+    font-size: 200%;
+    
+}
+
+.custom-navbar{
+    overflow-x: hidden;
+    letter-spacing: 1px;
+    font-family: head;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 10px 0;
+    height: auto;
+    transition: height 0.3s;
+}
+
+.nav-link{
+    color: white;
+}
+
+.btn-custom{
+    font-family: head;
+    float: right;
+    color: #32190a;
+    background-color: #9e6d3b;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.btn-custom:hover{
+    font-family: head;
+    color: #9e6d3b;
+    background-color: #32190a;
+}
+
+
+.container1{
+    color: white;
+    font-family: head;
+    letter-spacing: 2px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: #32190a;
+}
+
+.row{
+    padding: 1%;
+    background-color: #9e6d3b;
+}
+
+.products{
+    background-color: #9e6d3b;
+}
+
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+}
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-effect img {
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.hover-effect:hover img {
+    transform: scale(1.1);
+}
+
+.hover-effect .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: head;
+}
+
+.hover-effect:hover .overlay {
+    opacity: 1;
+}
+
+.modal h2{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.modal-title{
+    color: white;
+    font-family: head;
+}
+
+.modal-header{
+    background-color:#32190a
+}
+
+.modal-body{
+    background-color: #9e6d3b;
+    text-align: center;
+}
+
+body{
+    background-color: #1b1b1b;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+p{ 
+    color: #1b1b1b;
+    font-size: 30px;
+    font-family: head;
+}
+
+p.thicker{
+    background-color: #1b1b1b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.sticky-top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    width: 100%;
+    padding: 3%;
+    background-color: #1b1b1b;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    background-color: #1b1b1b;
+}
+
+.footer a{
+    color: white;
+    font-size: 300%;
+}
+
+.modal-footer{
+    background-color: #1b1b1b;
+}
+
+.custom-btn1{
+    color: white;
+}
+
+.col-form-label{
+    color: #1b1b1b;
+    font-family: head;
+}
+
+.toast-header{
+    letter-spacing: 2px;
+    color: white;
+    background-color: #32190a;
+}
+
+.toast{
+    font-family: head;
+    background-color: #9e6d3b;
+    color: #1b1b1b;
+}
+
+
+
+
+
+  
+
