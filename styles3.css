@@ -47,15 +47,15 @@ body{
 }
 
 h3{
-    letter-spacing: 0.5px;
+    font-family: head;
+    letter-spacing: 2px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #1b1b1b;
+    color: #ffffff;
 }
 
 h4{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #1b1b1b;
+    font-family: head;
+    color: #ffffff;
 }
 
 .modal-title{
